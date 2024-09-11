@@ -1,0 +1,430 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BRICKWAVE.COM</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="styles.css" type="text/css" rel="Stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <div id="header-hero-container">
+        <header>
+            <div class="flex container">
+                <a id="logo" href="#">ESTATE XPLORER</a>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+
+                    <ul id="nav-menu">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="http://www.google.com" target="_blank">Properties</a></li>
+                        <li><a href="#">Agents</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li id="close-flyout"><span class="fas fa-times"></span></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="hero">
+            <div class="fade"></div>
+            <div class="hero-text">
+                <h1>Buy and sell real estate properties</h1>
+                <p>Lorem ipsum dolor sit amet consectectur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
+            </div>
+        </section>
+    </div>
+
+    <section id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="flex">
+                <div>
+                    <span class="fas fa-home"></span>
+                    <h4>Find a Property.</h4>
+                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                </div>
+
+                <div>
+                    <span class="fas fa-dollar-sign"></span>
+                    <h4>Buy a Property.</h4>
+                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                </div>
+
+                <div>
+                    <span class="fas fa-chart-line"></span>
+                    <h4>Investing.</h4>
+                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties">
+        <div class="container">
+            <h2>Properties</h2>
+            <div id="properties-slider" class="slick">
+                <div>
+                    <img src="https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150755.jpg" width="50" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">3,400,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            480 12th, Unit 14, San Francisco, CA
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://t4.ftcdn.net/jpg/03/70/64/43/360_F_370644357_MDF4UXLAXTyyi2OyuK66tWW9cA2f8svL.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">4,400,000</p>
+                        <span class="beds">7 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            480 12th, Unit 14, San Francisco, CA
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://media.istockphoto.com/id/503044702/photo/illuminated-sky-and-outside-of-waterfront-buiding.jpg?s=612x612&w=0&k=20&c=xkDBkqmCVvhR4idfybXRb-yFS0KqOjqtikg_LtO4pzs=" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$3,400,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            480 12th, Unit 14, San Francisco, CA
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR60PA1G-ZydKXGSh-4iRlr0hmvFALozDA2_Q&s" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$3,400,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            480 12th, Unit 14, San Francisco, CA
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://www.buildofy.com/blog/content/images/2024/01/23-06-30-Gautham-Residence-122-1.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$3,400,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            480 12th, Unit 14, San Francisco, CA
+                        </address>
+                    </div>
+                </div>
+            </div>
+
+            <button class="rounded">View All Property Listings</button>
+        </div>
+    </section>
+
+    <section id="agents">
+        <div class="container">
+            <h2>Agents</h2>
+            <p class="large-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+
+            <div class="flex">
+                <div class="card">
+                    <img src="https://static.vecteezy.com/system/resources/previews/024/158/892/non_2x/isolated-sticker-of-cheerful-pink-circle-shape-cartoon-with-hands-up-over-grey-background-vector.jpg" alt="Realtor 1" />
+                    <h3>Kaiara Spencer</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ09Y-6VU4WZv7iYOpHa3UUWFG76ZUsfIrCg&s" alt="Realtor 1" />
+                    <h3>Dave Simpson</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-blue-cartoon-circle-button-png-image_9193843.png" alt="Realtor 1" />
+                    <h3>Ben Thompson</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://www.shutterstock.com/image-vector/vector-jumping-blue-circle-cartoon-260nw-1334600210.jpg" alt="Realtor 1" />
+                    <h3>Kyla Stewart</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://static.vecteezy.com/system/resources/previews/027/208/258/original/dot-circle-smile-retro-vintage-emoji-cartoon-png.png" alt="Realtor 1" />
+                    <h3>Rich Moffatt</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://clipart-library.com/img/2062644.png" alt="Realtor 1" />
+                    <h3>Stuart Redman</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="the-best">
+        <div class="flex container">
+            <img src="https://media.istockphoto.com/id/178447404/photo/modern-business-buildings.jpg?s=612x612&w=0&k=20&c=MOG9lvRz7WjsVyW3IiQ0srEzpaBPDcc7qxYsBCvAUJs=" alt="Property 1" />
+            <div>
+                <h2>We Are the Best Real Estate Company</h2>
+                <p class="large-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi voluptas impedit Quo suscipit omnis iste velit maxime.</p>
+                <ul>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                </ul>
+                <button class="rounded">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="flex">
+                <div>
+                    <div class="fas fa-home"></div>
+                    <div class="services-card-right">
+                        <h3>Search Property</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-dollar-sign"></div>
+                    <div class="services-card-right">
+                        <h3>Buy Property</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-chart-line"></div>
+                    <div class="services-card-right">
+                        <h3>Investing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-building"></div>
+                    <div class="services-card-right">
+                        <h3>List a Property</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-search"></div>
+                    <div class="services-card-right">
+                        <h3>Property Locator</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-mobile-alt"></div>
+                    <div class="services-card-right">
+                        <h3>Stated Apps</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Clients Are Saying</h2>
+            <div id="testimonials-slider">
+                <div>
+                    <blockquote>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="https://st.depositphotos.com/1518767/1390/i/450/depositphotos_13909347-stock-photo-young-employee-standing-upright-in.jpg" alt="Client 7" />
+                        <p>Nick Andros</p>
+                    </div>
+                </div>
+
+                <div>
+                    <blockquote>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="https://images-cdn.ubuy.co.in/648ab5cf2f12eb028f1a8733-mia-khalifa-celebrity-actress-8-5-x-11.jpg" alt="Client 7" />
+                        <p>Larry Underwood</p>
+                    </div>
+                </div>
+
+                <div>
+                    <blockquote>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202402/poonam-panday-022820361-3x4.jpeg?VersionId=.vs966wmlr8xgF5KQDJtfPCiMI7DIOfd" alt="Client 7" />
+                        <p>Fran Goldsmith</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <div class="flex">
+                <div id="form-container">
+                    <h3>Contact Form</h3>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" />
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" />
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" />
+
+                        <label for="message">Message</label>
+                        <textarea id="message">Write your message here..</textarea>
+
+                        <button class="rounded">Send Message</button>
+                    </form>
+                </div>
+
+                <div id="address-container">
+                    <label>Address</label>
+                    <address>
+                        20377 Evergreen Terrace Mountain View, California, USA
+                    </address>
+
+                    <label>Phone</label>
+                    <a href="#">232-232-2323</a>
+
+                    <label>Email Address</label>
+                    <a href="#">ouremail@domain.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="flex container">
+            <div class="footer-about">
+                <h5>About Stated</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+            </div>
+
+            <div class="footer-quick-links">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-subscribe">
+                <h5>Subscribe to our Newsletter</h5>
+                <div id="subscribe-container">
+                    <input type="text" placeholder="Enter Email" />
+                    <button class="right-rounded">Send</button>
+                </div>
+
+                <h5 class="follow-us">Follow Us</h5>
+                <ul>
+                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <small>
+            Copyright © 2019 All rights reserved | This template is made with <span class="fa fa-heart"></span> by <a href="https://colorlib.com">Colorlib</a>
+        </small>
+    </footer>
+
+    <script src="script.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
